@@ -1,5 +1,7 @@
 # Hackathon Prep
-Prep for [SteelHacks 2019](http://steelhacks.com/), a [Major League Hacking](https://mlh.io/) hackathon.
+Prep for [SteelHacks 2019](http://steelhacks.com/), a [Major League Hacking](https://mlh.io/) hackathon. \
+will be keeping tutorials and stuff [on my website](daedalus1235.github.io/hackprep/hpindex). Maybe I'll make it need a password later.
+
 
 
 ## Languages
