@@ -1,5 +1,5 @@
-# HackathonPrep
-Prep for SteelHacks 2019
+# Hackathon Prep
+Prep for [SteelHacks 2019](http://steelhacks.com/), a [Major League Hacking](https://mlh.io/) hackathon.
 
 
 ## Languages
