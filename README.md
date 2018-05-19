@@ -11,7 +11,7 @@ Back-end will most likely be Python or C++ due to versatility and support. Front
 - TensorFlow for Machine Learning
 - OpenCV for Computer Vision
 - SDL2.0 for C++ GUI
-- Tkinter or Kivy for Python GUI
+- Tkinter for Python GUI
 
 ## Resources
 [Learn TensorFlow and deep learning, without a Ph.D.](https://cloud.google.com/blog/big-data/2017/01/learn-tensorflow-and-deep-learning-without-a-phd)
@@ -19,4 +19,5 @@ Back-end will most likely be Python or C++ due to versatility and support. Front
 
 [TensorFlow Getting Started](https://www.tensorflow.org/get_started/eager)
 [TensorFlow Tutorials](https://www.tensorflow.org/tutorials/)
+[Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/ml-intro)
 : Imma get started on MNIST handwriting recognition - @daedalus1235
