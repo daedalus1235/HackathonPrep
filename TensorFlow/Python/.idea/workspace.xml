@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d8f398b-c231-454a-a774-110d12c48d2a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/untitled/imports85.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/linear_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/Iris.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/Iris.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/functions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/era.py" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/era.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/lrmain.py" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/lrmain.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,73 +13,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.57589805">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="lrmain.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/untitled/lrmain.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="684">
-                  <caret line="62" selection-start-line="62" selection-end-line="62" />
-                  <folding>
-                    <element signature="e#0#38#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="linear_regression.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/untitled/linear_regression.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="665">
-                  <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
-                  <folding>
-                    <element signature="e#751#789#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="imports85.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/untitled/imports85.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1528">
-                  <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
-                  <folding>
-                    <element signature="e#733#771#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="ee_cat_main.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/untitled/ee_cat_main.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="18">
-                  <caret line="1" selection-start-line="1" selection-end-line="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="functions.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/untitled/functions.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="630">
-                  <caret line="35" selection-start-line="35" selection-end-line="35" />
-                  <folding>
-                    <element signature="e#0#64#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="lrmain.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/untitled/lrmain.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="45" column="60" lean-forward="true" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="era.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/untitled/era.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1705">
+              <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+              <folding>
+                <element signature="e#733#771#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -111,9 +66,10 @@
         <option value="$PROJECT_DIR$/untitled/lr_main.py" />
         <option value="$PROJECT_DIR$/untitled/ee_cat_main.py" />
         <option value="$PROJECT_DIR$/untitled/functions.py" />
-        <option value="$PROJECT_DIR$/untitled/lrmain.py" />
         <option value="$PROJECT_DIR$/untitled/imports85.py" />
         <option value="$PROJECT_DIR$/untitled/linear_regression.py" />
+        <option value="$PROJECT_DIR$/untitled/era.py" />
+        <option value="$PROJECT_DIR$/untitled/lrmain.py" />
       </list>
     </option>
   </component>
@@ -163,7 +119,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.linear_regression">
+  <component name="RunManager" selected="Python.lrmain">
     <configuration name="Python" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -280,8 +236,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.linear_regression" />
         <item itemvalue="Python.lrmain" />
+        <item itemvalue="Python.linear_regression" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.functions" />
         <item itemvalue="Python.Iris" />
@@ -308,7 +264,7 @@
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.10104167" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.17301415" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.46354732" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Python Console" order="0" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
@@ -354,7 +310,7 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -519,13 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/untitled/ee_cat_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/untitled/functions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -543,20 +492,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/untitled/lrmain.py">
+    <entry file="file://$PROJECT_DIR$/untitled/ee_cat_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/untitled/imports85.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1528">
-          <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+        <state relative-caret-position="198">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#733#771#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/era.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1705">
+          <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
           <folding>
             <element signature="e#733#771#0" expanded="true" />
           </folding>
@@ -565,10 +521,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/untitled/linear_regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+        <state relative-caret-position="11">
+          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
           <folding>
             <element signature="e#751#789#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/lrmain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="45" column="60" lean-forward="true" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>

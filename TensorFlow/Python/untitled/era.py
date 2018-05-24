@@ -28,48 +28,19 @@ try:
 except ImportError:
     pass
 
-URL = "https://archive.ics.uci.edu/ml/machine-learning-databases/autos/imports-85.data"
+PATH = "/home/charles/Documents/git-repos/HackathonPrep/TensorFlow/Python/untitled/era.data"
 
 # Order is important for the csv-readers, so we use an OrderedDict here.
 defaults = collections.OrderedDict([
-    ("symboling", [0]),
-    ("normalized-losses", [0.0]),
-    ("make", [""]),
-    ("fuel-type", [""]),
-    ("aspiration", [""]),
-    ("num-of-doors", [""]),
-    ("body-style", [""]),
-    ("drive-wheels", [""]),
-    ("engine-location", [""]),
-    ("wheel-base", [0.0]),
-    ("length", [0.0]),
-    ("width", [0.0]),
-    ("height", [0.0]),
-    ("curb-weight", [0.0]),
-    ("engine-type", [""]),
-    ("num-of-cylinders", [""]),
-    ("engine-size", [0.0]),
-    ("fuel-system", [""]),
-    ("bore", [0.0]),
-    ("stroke", [0.0]),
-    ("compression-ratio", [0.0]),
-    ("horsepower", [0.0]),
-    ("peak-rpm", [0.0]),
-    ("city-mpg", [0.0]),
-    ("highway-mpg", [0.0]),
-    ("price", [0.0])
+    ("era", [0.0]),
+    ("wins", [0])
 ])  # pyformat: disable
 
 types = collections.OrderedDict((key, type(value[0]))
                                 for key, value in defaults.items())
 
 
-def _get_imports85():
-    path = tf.contrib.keras.utils.get_file(URL.split("/")[-1], URL)
-    return path
-
-
-def dataset(y_name="price", train_fraction=0.7):
+def dataset(y_name="wins", train_fraction=0.75):
     """Load the imports85 data as a (train,test) pair of `Dataset`.
   Each dataset generates (features_dict, label) pairs.
   Args:
@@ -80,7 +51,7 @@ def dataset(y_name="price", train_fraction=0.7):
     A (train,test) pair of `Datasets`
   """
     # Download and cache the data
-    path = _get_imports85()
+    path = PATH
 
     # Define how the lines of the file should be parsed
     def decode_line(line):
@@ -97,17 +68,6 @@ def dataset(y_name="price", train_fraction=0.7):
         label = features_dict.pop(y_name)
 
         return features_dict, label
-
-    def has_no_question_marks(line):
-        """Returns True if the line of text has no question marks."""
-        # split the line into an array of characters
-        chars = tf.string_split(line[tf.newaxis], "").values
-        # for each character check if it is a question mark
-        is_question = tf.equal(chars, "?")
-        any_question = tf.reduce_any(is_question)
-        no_question = ~any_question
-
-        return no_question
 
     def in_training_set(line):
         """Returns a boolean tensor, true if the line is in the training set."""
@@ -130,9 +90,7 @@ def dataset(y_name="price", train_fraction=0.7):
     base_dataset = (
         tf.data
             # Get the lines from the file.
-            .TextLineDataset(path)
-            # drop lines with question marks.
-            .filter(has_no_question_marks))
+            .TextLineDataset(path))
 
     train = (base_dataset
              # Take only the training-set lines.
@@ -149,9 +107,9 @@ def dataset(y_name="price", train_fraction=0.7):
 
 
 def raw_dataframe():
-    """Load the imports85 data as a pd.DataFrame."""
+    """Load the era data as a pd.DataFrame."""
     # Download and cache the data
-    path = _get_imports85()
+    path = PATH
 
     # Load it into a pandas dataframe
     df = pd.read_csv(path, names=types.keys(), dtype=types, na_values="?")
@@ -159,7 +117,7 @@ def raw_dataframe():
     return df
 
 
-def load_data(y_name="price", train_fraction=0.7, seed=None):
+def load_data(y_name="wins", train_fraction=0.75, seed=None):
     """Get the imports85 data set.
   A description of the data is available at:
     https://archive.ics.uci.edu/ml/datasets/automobile
